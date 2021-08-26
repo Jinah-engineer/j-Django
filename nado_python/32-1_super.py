@@ -56,8 +56,11 @@ class FlyableAttackUnit(AttackUnit, Flyable):
 # 건물
 class BuildingUnit(Unit):
     def __init__(self, name, hp, location):
-        # PASS = just pass, and do nothing
-        pass
+        # Unit.__init__(self, name, hp, 0)
+
+        # super 를 쓸 때는 () + self x
+        super().__init__(name, hp, 0)
+        self.location = location
 
 # Supply_depot : 건물, 1개 건물 = 8 unit
 supply_depot = BuildingUnit('supply_depot', 500, '7시')
