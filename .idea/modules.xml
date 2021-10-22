@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/j-Django.iml" filepath="$PROJECT_DIR$/.idea/j-Django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my_meehong_erp/.idea/meehong_erp.iml" filepath="$PROJECT_DIR$/../my_meehong_erp/.idea/meehong_erp.iml" />
     </modules>
   </component>
 </project>
